@@ -1,0 +1,89 @@
+.slider {
+  width: 100%;
+  height: calc(100vh - 120px);
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.arrowContainer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(195, 195, 195, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+}
+
+.arrowLeft {
+  left: 1%;
+}
+
+.arrowRight {
+  right: 1%;
+}
+
+.sliderWrapper {
+  height: 100%;
+  display: flex;
+  transform: translateX(-100vw);
+}
+
+.sliderSingle {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.imgContainer {
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.imgSlider {
+  width: 100%;
+}
+
+.infoContainer {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoTitle {
+  font-size: 64px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 4px;
+}
+
+.infoDesc {
+  font-size: 24px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.infoBtn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: #52be80;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.infoBtn:focus {
+  outline: none;
+}
