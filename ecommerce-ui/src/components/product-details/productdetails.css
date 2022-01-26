@@ -1,0 +1,163 @@
+.productDetail {
+  width: 100%;
+  height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productWrapper {
+  width: 80%;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+}
+
+.productLeft,
+.productRight {
+  flex: 1;
+  display: flex;
+}
+
+.productImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 0 30px;
+}
+
+.productInfoTitle {
+  font-size: 54px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.productInfoDesc {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.productInfoPrice {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.colorContainer {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.colorTitle {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.red {
+  background: red;
+}
+
+.black {
+  background: black;
+}
+
+.blue {
+  background: blue;
+}
+
+.moreContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.amount,
+.moreContainer > select {
+  flex: 1;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+}
+
+.decreaseBtn,
+.increaseBtn {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-top: 1px solid #e5e7e9;
+  border-bottom: 1px solid #e5e7e9;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.decreaseBtn {
+  border-left: 1px solid #e5e7e9;
+}
+.increaseBtn {
+  border-right: 1px solid #e5e7e9;
+}
+
+.count {
+  width: 60px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border-top: 1px solid #e5e7e9;
+  border-bottom: 1px solid #e5e7e9;
+}
+
+.count:focus {
+  outline: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.select {
+  width: 100px;
+  height: 40px;
+}
+
+.selectSize {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e5e7e9;
+  text-align: center;
+  font-size: 24px;
+}
+
+.selectSize:focus {
+  outline: 0;
+}
+
+.addToCart {
+  width: 150px;
+  height: 70px;
+  border: 1px solid #52be80;
+  background-color: transparent;
+  outline: 0;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.addToCart:hover {
+  background-color: #52be80;
+  color: white;
+}

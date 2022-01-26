@@ -18,7 +18,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbarCenter">
-          <span className="logoBrand">AmazonNa</span>
+          <Link to="/" className="linkTo">
+            <span className="logoBrand">AmazonNa</span>
+          </Link>
         </div>
         <div className="navbarRight">
           <Link className="navbarRightLink" to="/login">
@@ -27,9 +29,9 @@ const Navbar = () => {
           <Link className="navbarRightLink" to="/register">
             Register
           </Link>
-          <a className="navbarRightLink" href="#">
+          <Link className="navbarRightLink" to="/cart">
             <FaShoppingCart />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

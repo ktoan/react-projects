@@ -4,3 +4,8 @@
   z-index: 999;
   background-color: #fff;
 }
+
+.linkTo {
+  color: unset;
+  text-decoration: none;
+}
