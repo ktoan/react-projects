@@ -1,6 +1,7 @@
 import React from "react";
 import "./category.css";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const CategoryItem = styled.div`
   flex: 4;
@@ -22,7 +23,14 @@ const Category = ({ category }) => {
     <CategoryItem img={category.img}>
       <div className="infoCategory">
         <h1>{category.title}</h1>
-        <button>Shop now</button>
+        <button>
+          <Link
+            style={{ textDecoration: "none", color: "black" }}
+            to={`/products/${category.category}`}
+          >
+            Shop now
+          </Link>
+        </button>
       </div>
     </CategoryItem>
   );

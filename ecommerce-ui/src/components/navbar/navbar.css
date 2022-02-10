@@ -43,7 +43,7 @@
 }
 
 .navbarRightLink {
-  font-size: 20px;
+  font-size: 32px;
   font-weight: 600;
   cursor: pointer;
   color: #3498db;
@@ -58,7 +58,26 @@
 }
 
 .logoBrand {
-  font-size: 32px;
+  font-size: 50px;
   font-weight: bold;
   letter-spacing: 1.2px;
+}
+
+.cartLink {
+  position: relative;
+}
+
+.cartCounter {
+  position: absolute;
+  font-size: 15px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -10px;
+  right: -10px;
+  background-color: #aed6f1;
+  color: #566573;
+  border-radius: 50%;
 }

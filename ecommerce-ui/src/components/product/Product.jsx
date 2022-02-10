@@ -2,6 +2,7 @@ import React from "react";
 import "./product.css";
 import styled from "styled-components";
 import { FaSearch, FaRegHeart, FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ProductItem = styled.div`
   height: 50vh;
@@ -35,7 +36,9 @@ const Product = ({ product }) => {
         </div>
         <div className="iconItem">
           <span className="icon">
-            <FaSearch />
+            <Link to={`/product/${product._id}`}>
+              <FaSearch />
+            </Link>
           </span>
         </div>
         <div className="iconItem">

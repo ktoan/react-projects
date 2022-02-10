@@ -89,7 +89,7 @@
 .decreaseBtn,
 .increaseBtn {
   width: 40px;
-  height: 40px;
+  height: 60px;
   font-size: 20px;
   border-top: 1px solid #e5e7e9;
   border-bottom: 1px solid #e5e7e9;
@@ -106,7 +106,7 @@
 
 .count {
   width: 60px;
-  height: 40px;
+  height: 60px;
   font-size: 20px;
   text-align: center;
   border-top: 1px solid #e5e7e9;
@@ -130,7 +130,7 @@ input[type="number"] {
 
 .select {
   width: 100px;
-  height: 40px;
+  height: 60px;
 }
 
 .selectSize {

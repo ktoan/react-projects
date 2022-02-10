@@ -25,18 +25,21 @@ export const sliderItems = [
 export const categories = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "SHIRT STYLE!",
+    img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-04-07-at-3-52-43-pm-1586289163.png?crop=0.964509394572025xw:1xh;center,top&resize=480:*",
+    title: "MEN CLOTHES",
+    category: "men",
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "LOUNGEWEAR LOVE",
+    img: "https://image.made-in-china.com/202f0j00oOStnyLzMgcF/Modern-Fashion-Elegant-Women-Clothes.jpg",
+    title: "WOMEN CLOTHES",
+    category: "women",
   },
   {
     id: 3,
-    img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    title: "LIGHT JACKETS",
+    img: "https://cf.shopee.vn/file/0e0d22460ee358dcd6feddded27b1066",
+    title: "KID CLOTHES",
+    category: "kid",
   },
 ];
 

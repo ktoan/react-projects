@@ -13,12 +13,11 @@ const Wrapper = styled.div`
 
 const Slider = () => {
   const [index, setIndex] = useState(2);
-  console.log(sliderItems.length);
   const handleSlider = (direction) => {
     if (direction === "left") {
       setIndex(index > 0 ? index - 1 : sliderItems.length - 1);
     } else {
-      setIndex(index == sliderItems.length - 1 ? 0 : index + 1);
+      setIndex(index === sliderItems.length - 1 ? 0 : index + 1);
     }
   };
   return (

@@ -1,0 +1,24 @@
+.categoryTitle {
+  margin: 20px;
+}
+
+.filterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.filterText {
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+select {
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 1px solid gray;
+}
